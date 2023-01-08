@@ -1,2 +1,5 @@
 # Current-hour
-Current hour code in JS 
+
+var hours = (new Date()).getHours();
+console.log(hours);
+// Sample output: 10
